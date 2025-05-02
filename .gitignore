@@ -1,20 +1,48 @@
 # dependencies
 /node_modules
 
-# production
+# build output
 /build
+/.next
+/.vercel
+
+# production
+/dist
 
 # misc
 .DS_Store
 .env
 .env.local
+.env.*.local
 
-# log files
+# IDEs
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# IDE
-.vscode
-.idea
-*.swp
+# OS
+Thumbs.db
+Desktop.ini
+
+# Test coverage
+/coverage
+
+# Parcel cache
+.cache
+
+# local npm link
+*.tgz
+
+# macOS Finder tags
+.AppleDouble
+
+# optional Tailwind CSS config cache
+.tailwind-output.css

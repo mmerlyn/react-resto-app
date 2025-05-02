@@ -1,5 +1,3 @@
-// HomePage.js
 export default function HomePage() {
-    return <h1>Welcome to React Resto!</h1>;
-  }
-  
+  return <div className="text-2xl p-6">Welcome to React Resto</div>;
+}
