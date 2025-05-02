@@ -38,12 +38,12 @@ Menu items are loaded dynamically from a JSON file with support for:
 
 ## 🛠 Setup & Installation
 
-1. **Clone the repository**
-   git clone https://github.com/your-username/react-resto.git
+1. **Clone the repository** <br>
+   git clone https://github.com/mmerlyn/react-resto-app.git <br>
    cd react-resto
-2. **Install dependencies**
+2. **Install dependencies** <br>
     npm install
-3. **Start the development server**
+3. **Start the development server** <br>
     npm start
-4. **Open in your browser**
+4. **Open in your browser** <br>
     http://localhost:3000
