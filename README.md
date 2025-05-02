@@ -2,6 +2,8 @@
 
 A responsive food ordering single-page application (SPA) built with **React.js**, **Redux**, and **Tailwind CSS**.
 
+[Demo](https://react-resto-app.vercel.app/)
+
 ---
 
 ## 🔧 Tech Stack
