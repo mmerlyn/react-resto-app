@@ -5,10 +5,13 @@ import MenuPage from './pages/MenuPage';
 import CartPage from './pages/CartPage';
 import ConfirmationPage from './pages/ConfirmationPage';
 import Header from './components/Header';
+import { Toaster } from 'react-hot-toast';
+import AdminPage from './pages/AdminPage';
 
 function App() {
   return (
     <Router>
+      <Toaster position="top-right" />
       <div className="bg-gray-100 min-h-screen">
         <Header />
 
@@ -18,6 +21,7 @@ function App() {
             <Route path="/menu" element={<MenuPage />} />
             <Route path="/cart" element={<CartPage />} />
             <Route path="/confirmation" element={<ConfirmationPage />} />
+            <Route path="/admin" element={<AdminPage />} />
           </Routes>
         </main>
       </div>

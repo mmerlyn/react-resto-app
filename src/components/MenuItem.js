@@ -1,6 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart, removeFromCart } from '../redux/cartSlice';
+import toast from 'react-hot-toast';
+
 
 export default function MenuItem({ item }) {
   const dispatch = useDispatch();
@@ -8,8 +10,16 @@ export default function MenuItem({ item }) {
     state.cart.items.find(cart => cart.id === item.id)
   );
 
-  const handleAdd = () => dispatch(addToCart(item));
-  const handleRemove = () => dispatch(removeFromCart(item.id));
+  const handleAdd = () => {
+    dispatch(addToCart(item));
+    toast.success(`${item.name} added to cart`);
+  };
+  
+  const handleRemove = () => {
+    dispatch(removeFromCart(item.id));
+    toast.success(`${item.name} removed`);
+  };
+  
 
   return (
     <div className="bg-white border rounded-lg shadow hover:shadow-md transition overflow-hidden">

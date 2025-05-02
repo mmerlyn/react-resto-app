@@ -2,6 +2,8 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addToCart, removeFromCart, clearCart } from '../redux/cartSlice';
 import { useNavigate } from 'react-router-dom';
+import toast from 'react-hot-toast';
+
 
 export default function CartPage() {
   const cartItems = useSelector(state => state.cart.items);
@@ -13,6 +15,7 @@ export default function CartPage() {
   const handleCheckout = () => {
     if (cartItems.length === 0) return;
     dispatch(clearCart());
+    toast.success('Order placed!');
     navigate('/confirmation');
   };
 
