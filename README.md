@@ -4,8 +4,6 @@ A responsive food ordering single-page application (SPA) built with **React.js**
 ## 🚀 Demo
 [Live App →](https://react-resto-app.vercel.app)
 
----
-
 ## 🔧 Tech Stack
 
 - **React.js** - Component-based SPA architecture
