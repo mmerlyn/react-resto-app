@@ -1,17 +1,17 @@
-# React-Resto 🍽️
+# React-Resto 🍽️  
+A responsive food ordering single-page application (SPA) built with **React.js**, **Redux Toolkit**, and **Tailwind CSS**.
 
-A responsive food ordering single-page application (SPA) built with **React.js**, **Redux**, and **Tailwind CSS**.
-
-[Demo](https://react-resto-app.vercel.app/)
+## 🚀 Demo
+[Live App →](https://react-resto-app.vercel.app)
 
 ---
 
 ## 🔧 Tech Stack
 
-- **React.js** — Component-based SPA architecture
-- **Redux Toolkit** — Efficient global state management
-- **Tailwind CSS** — Utility-first CSS framework for fast styling
-- **React Router** — Client-side routing
+- **React.js** - Component-based SPA architecture
+- **Redux Toolkit** - Efficient global state management
+- **Tailwind CSS** - Utility-first CSS framework for fast styling
+- **React Router** - Client-side routing
 
 ---
 
@@ -24,26 +24,21 @@ Developed a modular and reusable component architecture in React, improving code
 Integrated **Redux Toolkit** to manage cart state globally and optimize API data handling, reducing unnecessary re-renders by **30%** and improving overall application performance.
 
 ### 📄 Dynamic Menu Loading
-Menu items are loaded dynamically from a JSON file with support for:
-- Product images
-- Descriptions
-- Quantity controls
+Admin panel to dynamically manage the menu:
+- Add/edit/delete items with live updates
+- Includes name, price, image, and description
+- Optional default seeding fallback
 
 ### 🛒 Cart + Checkout Flow
-- Add/remove items with quantity adjustment
+- Add/remove items with quantity controls
 - Real-time subtotal and total calculation
-- Checkout with confirmation screen
-- Cart state persisted via `localStorage`
+- Cart persists on refresh
+- Checkout flow with confirmation
+
+### 📱 Responsive Design
+- Mobile-friendly layout with adaptive grid
+- Toggleable mobile navigation
+- Icon-based nav with cart item count badge
+
 ---
-
-## 🛠 Setup & Installation
-
-1. **Clone the repository** <br>
-   git clone https://github.com/mmerlyn/react-resto-app.git <br>
-   cd react-resto
-2. **Install dependencies** <br>
-    npm install
-3. **Start the development server** <br>
-    npm start
-4. **Open in your browser** <br>
-    http://localhost:3000
+<pre> src/ ├── components/ // Shared UI components ├── pages/ // Home, Menu, Cart, Admin ├── redux/ // cartSlice, menuSlice, store ├── App.js // Routing and layout ├── index.js // App entry point </pre>

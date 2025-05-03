@@ -111,7 +111,7 @@ export default function AdminPage() {
         {menuItems.map(item => (
           <li
             key={item.id}
-            className="border p-4 rounded shadow flex flex-col gap-2"
+            className="flex flex-col sm:flex-row justify-between gap-4 p-4 border rounded shadow"
           >
             {editingId === item.id ? (
               <>

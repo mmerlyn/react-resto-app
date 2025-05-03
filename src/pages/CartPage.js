@@ -4,7 +4,6 @@ import { addToCart, removeFromCart, clearCart } from '../redux/cartSlice';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
-
 export default function CartPage() {
   const cartItems = useSelector(state => state.cart.items);
   const dispatch = useDispatch();
@@ -20,8 +19,8 @@ export default function CartPage() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6">Your Cart</h1>
+    <div className="max-w-4xl mx-auto px-4 py-6">
+      <h1 className="text-3xl font-bold mb-4">Your Cart</h1>
 
       {cartItems.length === 0 ? (
         <p className="text-gray-600">Your cart is empty.</p>
@@ -31,25 +30,23 @@ export default function CartPage() {
             {cartItems.map(item => (
               <li
                 key={item.id}
-                className="flex items-center gap-4 bg-white border rounded-lg p-4 shadow"
+                className="flex flex-col sm:flex-row items-center gap-4 p-4 border rounded shadow"
               >
-                {/* Image */}
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-24 h-24 object-cover rounded"
+                  className="w-full sm:w-24 h-24 object-cover rounded"
                 />
 
-                {/* Item details */}
-                <div className="flex-1">
+                <div className="flex-1 text-center sm:text-left">
                   <h2 className="text-lg font-semibold">{item.name}</h2>
                   <p className="text-sm text-gray-500 mb-1">{item.description}</p>
-                  <p className="text-sm font-medium text-gray-800">
-                    {item.quantity} x ${item.price.toFixed(2)} = ${(item.quantity * item.price).toFixed(2)}
+                  <p className="text-sm font-medium">
+                    {item.quantity} x ${item.price.toFixed(2)} = $
+                    {(item.quantity * item.price).toFixed(2)}
                   </p>
                 </div>
 
-                {/* Quantity controls */}
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => dispatch(removeFromCart(item.id))}
