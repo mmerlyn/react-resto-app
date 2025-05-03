@@ -1,9 +1,26 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+const defaultMenu = [
+  {
+    id: 1,
+    name: 'Margherita Pizza',
+    price: 8.99,
+    description: 'Classic pizza with fresh mozzarella, tomato sauce, and basil.',
+    image: "images/pizza.jpg"
+  },
+  {
+    id: 2,
+    name: 'Arrabiata Pasta',
+    price: 7.99,
+    description: 'Spicy penne pasta in a rich tomato and garlic chili sauce.',
+    image: "images/pasta.jpg",
+  }
+];
+
 const menuSlice = createSlice({
   name: 'menu',
   initialState: {
-    items: []
+    items: defaultMenu
   },
   reducers: {
     setMenu(state, action) {
