@@ -41,4 +41,9 @@ Admin panel to dynamically manage the menu:
 - Icon-based nav with cart item count badge
 
 ---
-<pre> src/ ├── components/ // Shared UI components ├── pages/ // Home, Menu, Cart, Admin ├── redux/ // cartSlice, menuSlice, store ├── App.js // Routing and layout ├── index.js // App entry point </pre>
+src/
+├── components/       // Shared UI components
+├── pages/            // Home, Menu, Cart, Admin
+├── redux/            // cartSlice, menuSlice, store
+├── App.js            // Routing and layout
+├── index.js          // App entry point
