@@ -40,11 +40,3 @@ Admin panel to dynamically manage the menu:
 - Toggleable mobile navigation
 - Icon-based nav with cart item count badge
 
----
-| src/ |
-| --- |
-| ├── components/       // Shared UI components |
-| ├── pages/            // Home |
-| ├── redux/            // cartSlice |
-| ├── App.js            // Routing and layout |
-| ├── index.js          // App entry point |
