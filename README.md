@@ -1,7 +1,6 @@
 # React-Resto 🍽️  
 A responsive food ordering single-page application (SPA) built with **React.js**, **Redux Toolkit**, and **Tailwind CSS**.
 
-## 🚀 Demo
 [Live App →](https://react-resto-app.vercel.app)
 
 ## 🔧 Tech Stack
@@ -10,8 +9,6 @@ A responsive food ordering single-page application (SPA) built with **React.js**
 - **Redux Toolkit** - Efficient global state management
 - **Tailwind CSS** - Utility-first CSS framework for fast styling
 - **React Router** - Client-side routing
-
----
 
 ## ✨ Features
 
