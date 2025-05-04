@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Salad",
+        "Description": "Crisp romaine, croutons, parmesan, and creamy Caesar dressing",
+        "price": 8.99,
+        "image": "/images/salad.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Schezwan Noodles",
+        "Description": "Hot Dishes",
+        "price": 10.99,
+        "image": "/images/schezwan-noodles.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Idly (2)",
+        "Description": "Hot Dishes",
+        "price": 9.99,
+        "image": "/images/idly.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dosa",
+        "Description": "Hot Dishes",
+        "price": 11.99,
+        "image": "/images/dosa.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Classic Cheese Burger",
+        "Description": "Juicy chicken patty with cheddar cheese, lettuce, tomato, and pickles",
+        "price": 14.99,
+        "image": "/images/burger.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Arrabiata Pasta",
+        "Description": "Spicy penne pasta in a rich tomato and garlic chili sauce",
+        "price": 13.99,
+        "image": "/images/pasta.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Chicken Tacos",
+        "Description": "Soft corn tortillas filled with grilled chicken, avocado, and salsa",
+        "price": 9.99,
+        "image": "/images/chicken-tacos.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Pizza",
+        "Description": "Classic wood-fired pizza with fresh mozzarella, basil, and tomato",
+        "price": 8.99,
+        "image": "/images/pizza.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Fried Rice",
+        "Description": "Hot Dishes",
+        "price": 15.99,
+        "image": "/images/fried-rice.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Brownie Bite",
+        "Description": "Rich chocolate brownie with a soft, fudgy center",
+        "price": 9.99,
+        "image": "/images/brownie-bite.jpg"
+    }
+  ]
+  
