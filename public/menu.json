@@ -15,10 +15,10 @@
     },
     {
         "id": 3,
-        "name": "Idly (2)",
-        "Description": "Hot Dishes",
-        "price": 9.99,
-        "image": "/images/idly.jpg"
+        "name": "Pizza",
+        "Description": "Classic wood-fired pizza with fresh mozzarella, basil, and tomato",
+        "price": 8.99,
+        "image": "/images/pizza.jpg"
     },
     {
         "id": 4,
@@ -29,31 +29,31 @@
     },
     {
         "id": 5,
+        "name": "Idly (2)",
+        "Description": "Hot Dishes",
+        "price": 9.99,
+        "image": "/images/idly.jpg"
+    },
+    {
+        "id": 6,
         "name": "Classic Cheese Burger",
         "Description": "Juicy chicken patty with cheddar cheese, lettuce, tomato, and pickles",
         "price": 14.99,
         "image": "/images/burger.jpg"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Arrabiata Pasta",
         "Description": "Spicy penne pasta in a rich tomato and garlic chili sauce",
         "price": 13.99,
         "image": "/images/pasta.jpg"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Chicken Tacos",
         "Description": "Soft corn tortillas filled with grilled chicken, avocado, and salsa",
         "price": 9.99,
         "image": "/images/chicken-tacos.jpg"
-    },
-    {
-        "id": 8,
-        "name": "Pizza",
-        "Description": "Classic wood-fired pizza with fresh mozzarella, basil, and tomato",
-        "price": 8.99,
-        "image": "/images/pizza.jpg"
     },
     {
         "id": 9,
