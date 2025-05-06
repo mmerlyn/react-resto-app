@@ -2,7 +2,6 @@ import { configureStore } from '@reduxjs/toolkit';
 import cartReducer from './cartSlice';
 import menuReducer from './menuSlice';
 
-// Load saved state
 const savedCart = localStorage.getItem('cartState');
 const savedMenu = localStorage.getItem('menuState');
 
@@ -19,7 +18,6 @@ export const store = configureStore({
   preloadedState,
 });
 
-// Save cart and menu to localStorage
 store.subscribe(() => {
   const state = store.getState();
   localStorage.setItem('cartState', JSON.stringify(state.cart));
