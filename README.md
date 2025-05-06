@@ -10,7 +10,7 @@ A responsive food ordering single-page application (SPA) built with **React.js**
 - **Tailwind CSS** - Utility-first CSS framework for fast styling
 - **React Router** - Client-side routing
 
-## ✨ Features
+## Features
 
 ### 📦 Component Design
 Developed a modular and reusable component architecture in React, improving code reusability by **40%** and enhancing long-term maintainability.
@@ -18,7 +18,7 @@ Developed a modular and reusable component architecture in React, improving code
 ### ⚙️ State Management
 Integrated **Redux Toolkit** to manage cart state globally and optimize API data handling, reducing unnecessary re-renders by **30%** and improving overall application performance.
 
-### 📄 Dynamic Menu Loading
+### 📄 Dynamic Menu Loadingclea
 Admin panel to dynamically manage the menu:
 - Add/edit/delete items with live updates
 - Includes name, price, image, and description
